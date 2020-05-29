@@ -1,0 +1,30 @@
+.card {
+    /* border: 1px dotted #845888; */
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 50%;
+    border: solid 1px #025159;
+}
+
+section {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.big {
+    vertical-align: top;
+    margin: 5px;
+    padding: 30px;
+    display: inline-block;
+    text-align: center;
+    height: 600px;
+    width: 224px;
+    border: 1px solid #025159;
+}
+
+article h2 {
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+}

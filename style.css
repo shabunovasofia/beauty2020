@@ -1,0 +1,192 @@
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+        img.beauty {
+            display: inline-block;
+            padding-right: 470px;
+        }
+        
+        body {
+            font-family: 'Comfortaa', cursive;
+        }
+        
+        header {
+            height: 130px;
+            width: 900px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            width: 100%;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            background-color: #025159;
+            margin: 0 auto;
+            text-align: center;
+            width: 900px;
+        }
+        
+        .res {
+            background-color: #025159;
+        }
+        
+        a {
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 15px;
+            margin: 0px;
+        }
+        
+        .zapis {
+            color: rgb(255, 255, 255);
+            background-color: #e91818;
+            padding: 15px 38px;
+        }
+        
+        li {
+            display: inline;
+            margin-left: -.36em;
+        }
+        
+        .d {
+            color: #e91818;
+            font-size: 14px;
+            background-color: #ffffff;
+            padding: 0px;
+        }
+        
+        .div1 {
+            text-align: right;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        .p {
+            padding: 0px;
+            font-size: 20px;
+            color: #025159;
+        }
+        
+        .phone:after {
+            content: "\260E";
+            color: rgb(0, 0, 0);
+            font-size: 2rem;
+        }
+        
+        .div2 {
+            position: relative;
+            background-color: gray;
+            height: 200px;
+            width: 900px;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+        
+        a:hover {
+            background-color: #047380;
+        }
+        
+        .zapis:hover {
+            background-color: #e97070;
+        }
+        
+        .d:hover {
+            background-color: #ffffff;
+            color: #e48585;
+        }
+        /* .div2 span {
+            /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
+        /* background: #222;
+            color: rgb(0, 0, 0);
+            border-radius: 2px;
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+            font-size: 40px;
+            padding-left: 30px;
+            padding-top: 500px;
+        } */
+        
+        .div2 div {
+            background-color: #e91818e1;
+            display: inline-block;
+            position: absolute;
+            color: rgb(255, 255, 255);
+            left: 0;
+            bottom: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 5px 30px;
+            margin-top: 500px;
+            font-size: 40px;
+        }
+        
+        section {
+            margin: 0 auto;
+            width: 900px;
+        }
+        
+        .ul {
+            background-color: #ffffff;
+            text-align: left;
+            list-style: decimal;
+        }
+        
+        .g:after {
+            content: "\2714";
+            color: rgb(0, 0, 0);
+            font-size: 2rem;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+        }
+        
+        .content {
+            flex: 1 0 auto;
+        }
+        
+        .footer {
+            flex: 0 0 auto;
+            background-color: #025159;
+            height: 80px;
+        }
+        
+        article {
+            padding: 10px;
+        }
+        
+        p {
+            padding: 10px;
+        }
+        
+        h3 {
+            padding: 10px;
+        }
+        
+        footer {
+            height: 10px;
+            padding: 10px;
+            text-align: right;
+            color: #ffffff;
+        }
+        
+        .anim1 {
+            animation: road 5s ease-in-out infinite;
+        }
